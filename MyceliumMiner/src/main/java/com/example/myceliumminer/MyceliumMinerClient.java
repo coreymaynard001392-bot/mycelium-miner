@@ -41,7 +41,7 @@ public class MyceliumMinerClient implements ClientModInitializer {
 
         openMenuKey = KeyBindingHelper.registerKeyBinding(new KeyMapping(
                 "key.myceliumminer.menu", InputConstants.Type.KEYSYM,
-                GLFW.GLFW_KEY_RIGHT_SHIFT, category));
+                GLFW.GLFW_KEY_O, category));
         toggleKey = KeyBindingHelper.registerKeyBinding(new KeyMapping(
                 "key.myceliumminer.toggle", InputConstants.Type.KEYSYM,
                 InputConstants.KEY_F6, category));
